@@ -23,11 +23,14 @@ flowchart LR
 
 ```
 
-
+## Nodes in diagrams
 ```mermaid
 %%{init: {'theme':'forest'}}%%
 flowchart LR
-textbox1(textbox)
-textbox2([textbox])
+
+textbox1[This is the text in the box]
+textbox2(textbox rounded corners)
+textbox3([textbox rounded])
+
 
 ```
